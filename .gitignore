@@ -1,0 +1,12 @@
+/model/target/
+/integration/target/
+/business/target/
+/richclient/target/
+/templatemodul/target/
+/util/target/
+/facadeproxy/target/
+/protocol/target/
+/h2/target/
+/server/target/
+/dispatcher/target/
+/dispatcherUI/target/

@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-module biapj.integration {
-    requires biapj.model;
-    requires biapj.util;
+module accounts.integration {
+    requires accounts.model;
+    requires accounts.util;
     requires java.logging;
-    exports biapj.integration;
-    uses biapj.integration.ReaderDAO;
+    exports accounts.integration;
+    uses accounts.integration.ReaderDAO;
 }

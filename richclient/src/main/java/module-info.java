@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-module biapj.richclient {
+module accounts.richclient {
     requires javafx.controls;
     requires javafx.graphics;
     requires javafx.base;
-    requires biapj.business;
-    requires biapj.integration;
-    requires biapj.model;
-    requires biapj.util;
+    requires accounts.business;
+    requires accounts.integration;
+    requires accounts.model;
+    requires accounts.util;
     requires java.logging;
-    exports biapj.richclient;
+    exports accounts.richclient;
 }

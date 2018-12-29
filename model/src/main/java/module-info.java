@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-module biapj.model {
-    requires biapj.util;
-    exports biapj.model;
+module accounts.model {
+    requires accounts.util;
+  exports accounts.model;
 }

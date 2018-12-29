@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-module biapj.h {
+module accounts.h {
     requires h2;
-    requires biapj.integration;
-    requires biapj.model;
+    requires accounts.integration;
+    requires accounts.model;
     requires java.sql;
-    requires biapj.util;
-    provides biapj.integration.ReaderDAO with biapj.h2.impl.H2ReaderDAOImpl;
+    requires accounts.util;
+    provides accounts.integration.ReaderDAO with accounts.h2.impl.H2ReaderDAOImpl;
 }

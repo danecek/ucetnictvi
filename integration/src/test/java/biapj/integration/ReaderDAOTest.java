@@ -1,9 +1,5 @@
 package biapj.integration;
 
-import biapj.model.Address;
-import org.junit.Test;
-import static org.junit.Assert.*;
-
 public class ReaderDAOTest {
 
 //    @Test
